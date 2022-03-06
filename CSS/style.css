@@ -12,7 +12,7 @@
              }
              
              body {
-                 background-color: rgb(75, 15, 131);
+                 background-image: url(https://images.pexels.com/photos/10935004/pexels-photo-10935004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
                  color: #fff;
              }
              
@@ -57,7 +57,6 @@
              .label {
                  max-width: 100%;
                  height: auto;
-                 margin: 10px;
              }
              
              .gender {
