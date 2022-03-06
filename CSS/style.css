@@ -37,7 +37,7 @@
                  display: block;
                  background-color: #fff;
                  color: #000;
-                 margin: 0 auto 1.rem auto;
+                 margin: auto;
                  padding: 10px;
              }
              
@@ -49,9 +49,8 @@
              
              .label-1 {
                  display: flex;
-                 justify-content: space-around;
+                 justify-content: space-between;
                  margin: 10px;
-                 padding: 10px;
              }
              
              .label {
@@ -63,7 +62,7 @@
                  display: flex;
                  justify-content: flex-start;
                  flex-direction: column;
-                 justify-content: space-evenly;
+                 justify-content: space-around;
              }
              
              .radio-buttons {
