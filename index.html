@@ -11,7 +11,7 @@
 
 <main>
     <script src="JS/script.js"></script>
-    <div class="container">
+    <div class="container" id="canvas">
         <header>
             <h1>Akan Name Generator</h1>
             <div class="header-paragraph">
@@ -23,7 +23,7 @@
 
         </header>
         <div class=" form1 ">
-            <form class="form ">
+            <form class="form" id="form">
                 <div class="label-1">
                     <label for="day of birth" class="label" id="day">DAY<input type="number" placeholder="DD" min="1"  max="31"  required></label>
                     <label for="month of birth" class="label" id="month">MONTH<input type="number"git placeholder="MM" min="1"  max="12" required></label>
@@ -38,7 +38,7 @@
                     </div>
 
                 </div>
-                <button class="submit" type=" submit " id="submit ">Generate Name</button>
+                <button id="btn" type="submit" onclick="Day()">Generate Name</button>
 
             </form>
         </div>
