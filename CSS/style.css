@@ -1,0 +1,16 @@
+    * {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: fit-content;
+    height: auto;
+    font-size: 20px;
+    padding: 200px;
+}
+
+body {
+    background-color: rgb(75, 15, 131);
+    color: #fff;
