@@ -47,3 +47,21 @@
                  justify-content: center;
                  align-items: center;
              }
+             
+             .label-1 {
+                 display: flex;
+                 justify-content: space-around;
+                 margin: 10px;
+             }
+             
+             .label {
+                 max-width: fit-content;
+                 height: auto;
+             }
+             
+             .gender {
+                 display: flex;
+                 justify-content: flex-start;
+                 flex-direction: column;
+                 justify-content: space-evenly;
+             }
