@@ -72,6 +72,6 @@
              .submit {
                  background-color: orange;
                  margin-top: 10px;
-                 width: fit-content;
+                 width: 100%;
                  height: auto;
              }
