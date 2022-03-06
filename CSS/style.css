@@ -69,3 +69,10 @@
              #radio-buttons {
                  margin: 10px;
              }
+             
+             .submit {
+                 background-color: orange;
+                 margin-top: 10px;
+                 width: fit-content;
+                 height: auto;
+             }
