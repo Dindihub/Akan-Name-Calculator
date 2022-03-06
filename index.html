@@ -10,7 +10,7 @@
 </head>
 
 <main>
-    <script src="JS/script.jsgit status"></script>
+    <script src="JS/script.js"></script>
     <div class="container">
         <header>
             <h1>Akan Name Generator</h1>
@@ -25,20 +25,20 @@
         <div class=" form1 ">
             <form class="form ">
                 <div class="label-1">
-                    <label for="day of birth" class="label">DAY<input type="number" placeholder="DD" min="1"  max="31"  required></label>
-                    <label for="month of birth" class="label">MONTH<input type="number"mplaceholder="MM" min="1"  max="12" required></label>
-                    <label for="year of birth" class="label">YEAR<input type="number" min="1800" max="2022"  placeholder="YYYY" required></label>
+                    <label for="day of birth" class="label" id="day">DAY<input type="number" placeholder="DD" min="1"  max="31"  required></label>
+                    <label for="month of birth" class="label" id="month">MONTH<input type="number"git placeholder="MM" min="1"  max="12" required></label>
+                    <label for="year of birth" class="label" id="year">YEAR<input type="number" min="1800" max="2022"  placeholder="YYYY" required></label>
                 </div>
                 <div class="gender">
                     <p>Select your gender</p>
-                    <div id="radio-buttons">
-                        <label><input type="radio" value="buttons" name="male-female" required>Male </label>
-                        <label><input type="radio" value="buttons" name="male-female" required>Female </label>
+                    <div class="radio-buttons" id="gender">
+                        <label><input type="radio" value="buttons" name="male-female" id="male"  required>Male </label>
+                        <label><input type="radio" value="buttons" name="male-female"  id="female"  required>Female </label>
 
                     </div>
 
                 </div>
-                <button class="submit" type=" submit " id="generate ">Generate Name</button>
+                <button class="submit" type=" submit " id="submit ">Generate Name</button>
 
             </form>
         </div>
