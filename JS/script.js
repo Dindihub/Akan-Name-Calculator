@@ -4,7 +4,11 @@ let maleAkanNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwam
 let femaleAkanNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama", ];
 
 const generateAkanName = () => {
-        let yearOf
+        let yearOfBirth = document.getElementById("year").value;
+        let monthOfBirth = (document.getElementById("month").value);
+        let dayOfBirth = Number(document.getElementById("year").value);
+        let yearOfBirth = document.getElementById("year").value;
+
     }
     // let day = document.getElementById("day");
     // let month = document.getElementById("month");
