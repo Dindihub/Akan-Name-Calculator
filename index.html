@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/style.css">
+
     <title> FORM</title>
 </head>
 
@@ -25,22 +27,31 @@
         <div class=" form1 ">
             <form class="form" id="form">
                 <div class="label-1">
-                    <label for="day of birth" class="label" id="day">DAY<input type="number" placeholder="DD" min="1"  max="31"  required></label>
-                    <label for="month of birth" class="label" id="month">MONTH<input type="number"git placeholder="MM" min="1"  max="12" required></label>
-                    <label for="year of birth" class="label" id="year">YEAR<input type="number" min="1800" max="2022"  placeholder="YYYY" required></label>
+                    <label for="day of birth" id="day">DAY<input type="number" placeholder="DD" min="1"  max="31"  required value=""></label>
+                    <label for="month of birth" id="month">MONTH<input type="number"git placeholder="MM" min="1"  max="12" required value=""></label>
+                    <label for="year of birth" id="year">YEAR<input type="number" min="1800" max="2022"  placeholder="YYYY" required value=""></label>
                 </div>
+
                 <div class="gender">
                     <p>Select your gender</p>
-                    <div class="radio-buttons" id="gender">
-                        <label><input type="radio" value="buttons" name="male-female" id="male"  required>Male </label>
-                        <label><input type="radio" value="buttons" name="male-female"  id="female"  required>Female </label>
+                    <div id="radio-buttons" for="gender">
+                        <label><input type="radio"value="male" name="gender" id="gender"  required>Male </label>
+                        <label><input type="radio" value="female" name="gender"  id="gender"  required>Female </label>
 
                     </div>
 
                 </div>
-                <button class="submit" type="submit">Generate Name</button>
+                <button class="submit" type="submit" id="submit">Generate Name</button>
 
             </form>
+            <div>
+                <h3>Hey, Friend 😎</h3>
+                <br />
+                <h5 id="output-day "></h5>
+                <br />
+                <h5 id="akan-name "></h5>
+                <br />
+            </div>
         </div>
     </div>
 
