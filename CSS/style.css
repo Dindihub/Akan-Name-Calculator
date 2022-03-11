@@ -1,77 +1,77 @@
-             * {
-                 margin: 0%;
-                 padding: 0;
-                 box-sizing: border-box;
-             }
-             
-             .container {
-                 width: 100%;
-                 height: auto;
-                 font-size: 20px;
-                 padding: 150px;
-             }
-             
-             body {
-                 background-image: url(https://images.pexels.com/photos/10935004/pexels-photo-10935004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-                 color: #fff;
-             }
-             
-             header {
-                 display: flex;
-                 justify-content: center;
-                 flex-direction: column;
-                 align-items: center;
-                 padding: 3rem;
-                 width: 100%;
-                 height: auto;
-             }
-             
-             .header-paragraph {
-                 display: flex;
-                 justify-content: center;
-                 align-items: center;
-                 flex-direction: column;
-             }
-             
-             .form {
-                 display: block;
-                 background-color: #fff;
-                 color: #000;
-                 margin: auto;
-                 padding: 10px;
-             }
-             
-             .form1 {
-                 display: flex;
-                 justify-content: center;
-                 align-items: center;
-             }
-             
-             .label-1 {
-                 display: flex;
-                 justify-content: space-between;
-                 margin: 10px;
-             }
-             
-             .label {
-                 max-width: 100%;
-                 height: auto;
-             }
-             
-             .gender {
-                 display: flex;
-                 justify-content: flex-start;
-                 flex-direction: column;
-                 justify-content: space-around;
-             }
-             
-             .radio-buttons {
-                 margin: 10px;
-             }
-             
-             .submit {
-                 background-color: orange;
-                 margin-top: 10px;
-                 width: 100%;
-                 height: auto;
-             }
+  * {
+      margin: 0%;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  .container {
+      width: 100%;
+      height: auto;
+      font-size: 20px;
+      padding: 150px;
+  }
+  
+  body {
+      background-image: url(https://images.pexels.com/photos/10935004/pexels-photo-10935004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+      color: #fff;
+  }
+  
+  header {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      padding: 3rem;
+      width: 100%;
+      height: auto;
+  }
+  
+  .header-paragraph {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  
+  .form {
+      display: block;
+      background-color: #fff;
+      color: #000;
+      margin: auto;
+      padding: 10px;
+  }
+  
+  .form1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .label-1 {
+      display: flex;
+      justify-content: space-between;
+      margin: 10px;
+  }
+  
+  .label {
+      max-width: 100%;
+      height: auto;
+  }
+  
+  .gender {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      justify-content: space-around;
+  }
+  
+  .radio-buttons {
+      margin: 10px;
+  }
+  
+  .submit {
+      background-color: orange;
+      margin-top: 10px;
+      width: 100%;
+      height: auto;
+  }
